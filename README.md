@@ -1,4 +1,4 @@
-## DicomExtractor
+# DicomExtractor
 
 This project can be used for extracting Dicom image from a file and storing the metadata. This project uses the ImageJ library which has a DICOM class.
 
@@ -17,5 +17,5 @@ mvn install
 ```
 mvn exec:java -Dexec.args="/path/to/dicom.dcm"
 ```
-# References:
+## References:
 * https://imagej.nih.gov/ij/developer/api/ij/plugin/DICOM.html
