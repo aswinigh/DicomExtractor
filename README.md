@@ -17,5 +17,5 @@ mvn install
 ```
 mvn exec:java -Dexec.args="/path/to/dicom.dcm"
 ```
-#References:
+# References:
 * https://imagej.nih.gov/ij/developer/api/ij/plugin/DICOM.html
