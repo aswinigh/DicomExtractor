@@ -5,7 +5,13 @@ This project can be used for extracting Dicom image from a file and storing the 
 Usage:
 
 * Make sure Maven in installed in your system.
-* Clone this repository and go to dicom-extract folder
+* Install MongoDB
+* Clone this repository
+```
+git clone https://github.com/aswinigh/DicomExtractor.git
+
+```
+* Go to dicom-extract folder
 ```
 cd dicom-extract
 ```
@@ -19,3 +25,4 @@ mvn exec:java -Dexec.args="/path/to/dicom.dcm"
 ```
 ## References:
 * https://imagej.nih.gov/ij/developer/api/ij/plugin/DICOM.html
+* https://www.youtube.com/watch?v=Mp2CPA-3a6Q
